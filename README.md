@@ -1,17 +1,11 @@
-# Rapport sur le TP Base de Données
-
-## Fait par:
-RIDAOUI Hatim
-## Encadré par:
-TAMYM Lahcen
 
 ---
 
-## 1. Exercice 1.sql:
+## 1. Part1.sql:
 
 Ce fichier contient les instructions SQL pour créer les tables de la base de données. Les tables incluent `ETUDIANTS`, `ENSEIGNANTS`, `SALLES`, `EPREUVES`, `INSCRIPTIONS`, `HORAIRES`, `OCCUPATIONS`, et `SURVEILLANCES`. Les attributs de chaque table et leurs contraintes correspondent aux descriptions fournies dans le fichier PDF.
 
-## 2. Exercice 2.sql:
+## 2. Part2.sql:
 
 Ce fichier se concentre sur la gestion d'une colonne dérivée, `Nb_Inscrits`, pour la table `EPREUVES`. Voici les étapes principales:
 - **Ajout de la colonne `Nb_Inscrits`**: Une nouvelle colonne est ajoutée à la table `EPREUVES` pour stocker le nombre d'étudiants inscrits à une épreuve. Elle est initialisée à 0.
@@ -20,7 +14,7 @@ Ce fichier se concentre sur la gestion d'une colonne dérivée, `Nb_Inscrits`, p
   - Lorsqu'une nouvelle épreuve est créée, `Nb_Inscrits` est initialisé à 0.
   - Lorsqu'une inscription est ajoutée ou supprimée, la valeur de `Nb_Inscrits` pour l'épreuve concernée est mise à jour.
 
-## 3. Exercice 3.sql:
+## 3. Part3.sql:
 
 C1 : Contrainte sur les horaires des épreuves
 
@@ -43,13 +37,3 @@ C5 : Contrainte sur la surveillance des épreuves
     SQL : Un déclencheur est créé pour vérifier si une épreuve est programmée dans une salle à l'heure de début de la surveillance.
 
 ---
-
-## Remarques:
-
-1. L'archive ZIP contient la base de données exportée à partir de SQLDeveloper, ainsi que le code source avec commentaires (aussi disponible sur Etulab à l'adresse : https://etulab.univ-amu.fr/r22023728/tp-1-2-3-base-de-donnees.git, demander à l'étudiant pour les droits d'accès )
-2. Le projet a été également enregistré sur le serveur Oracle.
-3. le rapport est présent sous forme de fichier PDF, ainsi que sous forme de fichier README.md dans le code source.
-
----
-
-N-B: Si vous avez des questions spécifiques ou si vous souhaitez des clarifications sur des parties particulières du rapport, n'hésitez pas à contacter l'encadrant ou l'étudiant responsable.
