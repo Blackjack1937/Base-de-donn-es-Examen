@@ -1,4 +1,4 @@
-# Gestion de colonne dérivée
+-- Gestion de colonne dérivée
 
 -- Ajouter la colonne Nb_Inscrits à la table EPREUVES (initiée à 0)
 ALTER TABLE EPREUVES

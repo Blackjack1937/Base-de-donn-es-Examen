@@ -1,4 +1,4 @@
-#Création des tables
+-- Création des tables
 
 CREATE TABLE ETUDIANTS (
     NumEtu INT PRIMARY KEY,
